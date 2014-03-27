@@ -1,0 +1,45 @@
+<!--
+To change this template use Tools | Templates.
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="bower_components/headjs/dist/1.0.0/head.min.js" type="text/javascript"></script>
+    <title></title>
+</head>
+
+<body>
+    <div id="login" class="row" style="display:none;">
+        <form role="form">
+            <div class="login-inline">
+                <label class="col-sm-3" for="InputUserID1">User ID</label>
+                <input class="col-sm-9 textvalidate" type="email" id="InputUserID1">
+            </div>
+            <br>
+            <div class="login-inline">
+                <label class="col-sm-3" for="InputPassword1">PIN</label>
+                <input class="col-sm-9 textvalidate" type="password" id="InputPassword1">
+            </div>
+            <br>
+            <button id="submit" class="col-sm-offset-9 col-sm-3 btn btn-primary" type="button">SUBMIT</button>
+        </form>
+    </div>
+    <div id="info" class="row" style="display:none;">
+        <form role="form">
+            <div class="info-inline">
+                <label class="col-sm-3" for="OutputUserName1">Name</label>
+                <input class="col-sm-9" type="text" id="OutputUserName1" disabled>
+            </div>
+            <br>
+            <div class="info-inline">
+                <label class="col-sm-3" for="OutputPoints1">Points</label>
+                <input class="col-sm-9" type="text" id="OutputPoints1" disabled>
+            </div>
+            <button id="back" class="col-sm-offset-9 col-sm-3 btn btn-primary" type="button">BACK</button>
+        </form>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
